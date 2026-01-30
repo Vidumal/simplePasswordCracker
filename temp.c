@@ -2,7 +2,7 @@
 #include <string.h>
 
 void audit_password(const char* wordlist_path, const char* user_input) {
-    FILE* file = fopen(wordlist_path, "r");
+    FILE* file = fopen(C:\Users\USER\Downloads\Compressed\rockyoutxt\, "r");
     if (!file) {
         printf("Error: Could not find the wordlist file at %s\n", wordlist_path);
         return;
